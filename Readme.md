@@ -8,7 +8,7 @@
 
 ## Key Features
 
-**Developer Landing Home Page** is The sample Resopnsive webpage that is Designed with HTML5 and CSS-3.
+**Developer Landing Home Page** is The sample Responsive webpage that is Designed with HTML5 and CSS-3.
 
 - ### Font Used -
   - Righteous
