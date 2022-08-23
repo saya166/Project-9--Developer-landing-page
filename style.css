@@ -40,6 +40,9 @@ nav {
   margin: 40px;
 }
 
+.arrow {
+  display: none;
+}
 .header-text {
   color: white;
   margin-left: 60px;
@@ -129,7 +132,7 @@ nav {
 
 .blog-card {
   height: 288px;
-  width: 40%;
+  width: 50%;
   background-color: white;
   border-radius: 70px 10px 10px 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -327,4 +330,385 @@ button {
 .footer-logos {
   margin-top: 50px;
   margin-left: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  header {
+    height: 400px;
+  }
+  .nav-item {
+    font-size: 13px;
+  }
+  .logo {
+    height: 30px;
+    margin-top: 15px;
+  }
+  .nav-item-active {
+    font-size: 13px;
+  }
+  .header-text {
+    font-size: 15px;
+  }
+  .header-image {
+    height: 300px;
+  }
+  .card-active {
+    height: 300px;
+    padding-right: 20px;
+  }
+  .blog-cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .blog-card {
+    display: flex;
+    width: 750px;
+  }
+  .blog-img {
+    width: 380px;
+    height: 285px;
+  }
+  .blog-right-part {
+    padding-right: -20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .blog-card2 {
+    margin-top: 15px;
+  }
+  .blog-content h3 {
+    margin-top: -10px;
+    font-size: 25px;
+  }
+  .blog-content small {
+    font-size: 14px;
+  }
+  .blog-card-bottom-image {
+    height: 30px;
+  }
+  .blog1-btm-img {
+    margin-top: 25px;
+  }
+  .blog2-btm-img {
+    margin-top: 25px;
+  }
+  .blog-author {
+    margin-left: -100px;
+    margin-top: -16px;
+  }
+  .faq-section {
+    display: flex;
+    /* flex-direction: column; */
+  }
+  .faq-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .faq-content h2 {
+    font-size: 30px;
+  }
+  .faq-content h4 {
+    font-size: 15px;
+  }
+  .faq-content button {
+    font-size: 15px;
+  }
+  .faq-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+    margin-top: 80px;
+  }
+  .faq-img {
+    width: 350px;
+  }
+  .download-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+  }
+  .download-email {
+    margin-top: auto;
+  }
+  .download-content {
+    margin-left: -8px;
+    font-size: 13px;
+  }
+  input {
+    width: 250px;
+  }
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-logo {
+    height: 30px;
+
+    margin: 70px 0px 0px 100px;
+  }
+  .list-items {
+    display: none;
+  }
+  .footer-right {
+    margin-top: -20px;
+    margin-left: 8px;
+    margin-right: -5px;
+  }
+  .footer-logos {
+    height: 30px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .header-text {
+    font-size: 12px;
+  }
+  .header-image {
+    height: 250px;
+  }
+  .blog-cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .blog-card {
+    display: flex;
+    width: 550px;
+  }
+  .blog-img {
+    width: 250px;
+    height: 285px;
+  }
+  .blog-right-part {
+    padding-right: -60px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .blog-card2 {
+    margin-top: 15px;
+  }
+  .blog-content h3 {
+    margin-top: -10px;
+    font-size: 20px;
+  }
+  .blog-content small {
+    font-size: 13px;
+  }
+  .blog-card-bottom-image {
+    height: 30px;
+  }
+  .blog1-btm-img {
+    margin-top: 43px;
+  }
+  .blog2-btm-img {
+    margin-top: 45px;
+  }
+  .blog-author {
+    margin-left: -100px;
+    margin-top: -16px;
+  }
+  .faq-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .faq-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .faq-content h2 {
+    font-size: 25px;
+  }
+  .faq-content h4 {
+    font-size: 14px;
+  }
+  .faq-content button {
+    font-size: 13px;
+  }
+  .faq-image {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+    margin-top: 80px;
+  }
+  .faq-img {
+    width: 350px;
+  }
+  .download-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+  }
+  .download-email {
+    margin-top: auto;
+  }
+  .download-content {
+    margin-left: -8px;
+    font-size: 13px;
+  }
+  input {
+    width: 250px;
+  }
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-logo {
+    height: 30px;
+    margin: 70px 0px 0px -60px;
+  }
+  .list-items {
+    display: none;
+  }
+  .footer-right {
+    margin-top: -20px;
+    margin-left: 8px;
+    margin-right: -5px;
+  }
+  .footer-logos {
+    height: 30px;
+  }
+}
+@media screen and (max-width: 700px) {
+  header {
+    height: 450px;
+  }
+  .header-text {
+    font-size: 10px;
+  }
+  .header-image {
+    margin-top: 40px;
+
+    height: 200px;
+  }
+}
+@media screen and (max-width: 660px) {
+  header {
+    height: 500px;
+  }
+  .header-text {
+    margin-top: -5px;
+    text-align: center;
+    margin-left: 90px;
+  }
+  .nav-item {
+    display: none;
+  }
+
+  .header-image {
+    height: 250px;
+    margin-right: 90px;
+    /* width: 450px; */
+  }
+  .companies {
+    margin-left: 20px;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 15px;
+    height: 700px;
+    margin-bottom: 250px;
+  }
+  .card-active {
+    height: 270px;
+    width: 150px;
+  }
+  .card {
+    height: 270px;
+    width: 149px;
+    border: 1px solid rgb(230, 226, 226);
+  }
+  .blog-cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .blog-card {
+    display: flex;
+    width: 350px;
+  }
+  .blog-img {
+    width: 180px;
+    height: 285px;
+  }
+  .blog-right-part {
+    padding-right: -20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .blog-card2 {
+    margin-top: 15px;
+  }
+  .blog-content h3 {
+    margin-top: -10px;
+    font-size: 12px;
+  }
+  .blog-content small {
+    font-size: 8px;
+  }
+  .blog-card-bottom-image {
+    height: 30px;
+  }
+  .blog1-btm-img {
+    margin-top: 36px;
+  }
+  .blog2-btm-img {
+    margin-top: 55px;
+  }
+  .blog-author {
+    margin-left: -100px;
+    margin-top: -16px;
+  }
+  .faq-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .faq-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .faq-content h2 {
+    font-size: 20px;
+  }
+  .faq-content h4 {
+    font-size: 12px;
+  }
+  .faq-content button {
+    font-size: 10px;
+  }
+  .faq-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+    margin-top: 80px;
+  }
+  .faq-img {
+    width: 350px;
+  }
+
+  input {
+    width: 250px;
+  }
 }

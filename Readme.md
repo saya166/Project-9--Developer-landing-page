@@ -4,7 +4,7 @@
 
 ![Interior Design Landing Page](./9.png)
 
-**[Click here](https://developer-landing-home-page-saya.netlify.app/) for the live demo of the webspage on [Netlify](https://www.netlify.com/).**
+**[Click here](https://developer-landing-home-page-saya.netlify.app/) for the live demo of the webpage on [Netlify](https://www.netlify.com/).**
 
 ## Key Features
 
