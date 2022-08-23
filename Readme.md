@@ -8,11 +8,12 @@
 
 ## Key Features
 
-**Developer Landing Home Page** is The sample webpage that is Designed with HTML5 and CSS-3.
+**Developer Landing Home Page** is The sample Resopnsive webpage that is Designed with HTML5 and CSS-3.
 
 - ### Font Used -
   - Righteous
   - Poppins
+- `Media Queries` are used to make the webpage responsive.
 - Icons are used from _canva_.
 - The website is hosted on _Netlify_.
 - Introduced with how to use border property to only one side to make it curved box.
