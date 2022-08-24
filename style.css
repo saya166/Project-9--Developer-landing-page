@@ -617,7 +617,7 @@ button {
     /* width: 450px; */
   }
   .companies {
-    margin-left: -20px;
+    margin-left: -10px;
   }
   .cards {
     display: flex;
@@ -626,7 +626,7 @@ button {
     column-gap: 15px;
     height: 700px;
     margin-bottom: 250px;
-    margin-left: 10px;
+    margin-left: 5px;
   }
   .card-active {
     height: 270px;
@@ -641,7 +641,7 @@ button {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-left: 20px;
+    margin-left: 10px;
   }
   .blog-card {
     display: flex;
@@ -692,14 +692,14 @@ button {
   }
   .faq-content h2 {
     font-size: 20px;
-    margin-left: -20px;
+    margin-left: -10px;
   }
   .faq-content h4 {
     margin-left: -20px;
     font-size: 11px;
   }
   .faq-content button {
-    margin-left: -20px;
+    margin-left: -10px;
     font-size: 10px;
   }
   .faq-image {
@@ -710,8 +710,8 @@ button {
     margin-top: 80px;
   }
   .faq-img {
-    margin-top: 20px;
-    margin-left: -20px;
+    margin-top: 10px;
+    margin-left: -10px;
     width: 350px;
   }
 
